@@ -19,6 +19,42 @@ const example = {
   
   // Write your intern objects here:
   
+  const mit = {
+    ID: 1,
+    Name: "Mitzi",
+    Email: "mmelloy0@psu.edu",
+    Gender: "F",
+    }
+    
+    const ken = {
+    ID: 2,
+    Name: "Kennan",
+    Email: "kdiben1@tinypic.com",
+    Gender: "M",
+    }
+    
+    const kev = {
+    ID: 3,
+    Name: "Keven",
+    Email: "kmummery2@wikimedia.org",
+    Gender: "M",
+    }
+    
+    const gan = {
+    ID: 4,
+    Name: "Gannie",
+    Email: "gmartinson3@illinois.edu",
+    Gender: "M",
+    }
+    
+    const ant = {
+    ID: 5,
+    Name: "Antonietta",
+    Email: "adaine5@samsung.com",
+    Gender: "F"
+    }
+
+console.log(mit,ken,kev,gan,ant)
   
   // ==== Challenge 2: Reading Object Data ==== 
   // Once your objects are created, log out the following requests from HR into the console:
@@ -32,13 +68,42 @@ const example = {
   // Gannie's name
   
   // Antonietta's Gender
+
+console.log(mit.Name)
+console.log(ken.ID)
+console.log(kev.Email)
+console.log(gan.Name)
+console.log(ant.Gender)
   
   // ==== Challenge 3: Object Methods ==== 
   // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
   // console.log(kennan.speak());
   
+  const kenn = {
+    ID: 2,
+Name: "Kennan!",
+Email: "kdiben1@tinypic.com",
+Gender: "M",
+kennan: function(){
+ return `Hello My Name Is ${this.Name}`
+}
+}
+console.log(kenn.kennan())
+
   // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
   //console.log(antonietta.multiplyNums(3,4));
+
+  const anto = {
+    ID: 5,
+    Name: "Antonietta",
+    Email: "adaine5@samsung.com",
+    Gender: "F",
+    anton: function(num1, num2){
+      return num1 * num2
+    }
+    }
+    console.log(anto.anton(5, 5))
   
   // === Great work! === Head over to the the arrays.js. You may come back and attempt the Stretch Challenge once you have completed the challenges in arrays.js and function-conversion.js.
+  
   

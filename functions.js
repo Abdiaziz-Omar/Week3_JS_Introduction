@@ -29,6 +29,16 @@ add(1,2);
 
 */
 
+const add = (num1, num2) => {
+  return num1 + num2
+}
+console.log(add(15, 10))
+
+// *******************************
+
+const multiply = (num1, num2) => num1 * num2
+console.log(multiply(2, 25))
+
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task: Rock, Paper, Scissors - Let's play against the computer! 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -52,3 +62,4 @@ Use the game function below to do the following:
 function game(user, computer){
     /*add your code here*/
 }
+

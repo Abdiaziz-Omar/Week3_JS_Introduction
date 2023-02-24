@@ -9,6 +9,10 @@ Do the following:
    HINT: look up the Number method / Raadi Number Method wax la dhaho
 */
 
+const str = "1999"
+console.log(str)
+console.log(typeof str)
+console.log(parseInt(str))
 
 /*
 Task: Mood Checker
@@ -20,6 +24,30 @@ Do the following:
 
 */
 
+const mode = prompt()
+if (mode=="happy"){
+    console.log("yay me too!")
+}
+else if (mode=="sad"){
+    console.log("Aw cheer up")
+}
+else {
+    console.log("so moody!")
+}
+
+// *****************************
+
+let modeH = "happy"
+let modeS = "sad"
+if (modeH=="happy"){
+    console.log("yay me too!")
+}
+else if (modeS=="sad"){
+    console.log("Aw cheer up")
+}
+else {
+    console.log("So Moody!")
+}
 
 /*
 Task: Odd or Even / kisi ama dhaban
@@ -34,11 +62,41 @@ var num = 16; // You can change this number! / Number-kaan ku bilow
 
 // write your conditions here / Code-kaada halkaan ku qor
 
+const number = 8
+if (number % 4 == 0) {
+    console.log("This number is even.")
+}
+else {
+    console.log("This number is odd.")
+}
+
 
 
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task: FIZZBUZZ 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
+
+for (let i = 1; i<=100; i++) {
+   if (i % 3 == 0 && i % 5 == 0) {
+       console.log("FIZZBUZ")
+   }
+   else if (i % 3 == 0) {
+       console.log("FIZZ")
+   }
+    else if (i % 5 == 0) {
+       console.log("BUZZ")
+   }
+    else if (i % 9 == 0) {
+       console.log("Prime")
+   }
+        else {
+       console.log(i)
+   }
+   const prime = 9
+   if (prime % 9 == 0) {
+       console.log("Prime")
+   }
+}
 
 /*
 
@@ -110,3 +168,4 @@ Using the vowelCounter function below do the following:
 function vowelCounter(/*add your code here*/) {
     /*add your code here*/
 }
+
